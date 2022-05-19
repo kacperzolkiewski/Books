@@ -10,10 +10,10 @@ export const TopBar: React.FC<Props> = ({ showChange }) => {
       <Link className="link" to="/Books">
         Home
       </Link>
-      <Link className="link" to="/favourite">
+      <Link className="link" to="/Books/favourite">
         Favourite
       </Link>
-      <Link className="link" to="/search">
+      <Link className="link" to="/Books/search">
         Search
       </Link>
       <span onClick={() => showChange()} className="link">

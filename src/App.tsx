@@ -35,11 +35,11 @@ function App() {
         <Routes>
           <Route path="/Books" element={<Home author={author} title={title} />} />
           <Route
-            path="/favourite"
+            path="/Books/favourite"
             element={<Favourite author={author} title={title} />}
           />
           <Route
-            path="/search"
+            path="/Books/search"
             element={<Search author={author} title={title} />}
           />
         </Routes>
