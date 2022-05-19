@@ -1,0 +1,161 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  height: 100vh;
+  overflow-x: hidden;
+  padding-bottom: 20px;
+  box-sizing: border-box;
+}
+
+.list {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.bookList {
+  margin-top: 30px;
+  padding: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.filter {
+  display: flex;
+  position: fixed;
+  flex-direction: column;
+  background-color: rgb(6, 101, 211);
+  padding: 20px;
+  z-index: 10;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+  top: 55px;
+  width: 220px;
+  height: 100px;
+  transition: 0.5s;
+  border-radius: 10px;
+}
+
+.input {
+  border: none;
+  height: 20px;
+  width: 90%;
+  border-radius: 5px;
+}
+
+.input:focus {
+  outline: none;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: rgb(238, 237, 237);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(6, 101, 211);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(3, 85, 179);
+}
+
+.button {
+  text-decoration: none;
+  background-color: rgb(6, 101, 211);
+  color: white;
+  font-weight: bold;
+  width: 60px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  -webkit-box-shadow: 8px 8px 24px -9px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 8px 8px 24px -9px rgba(66, 68, 90, 1);
+  box-shadow: 8px 8px 24px -9px rgba(66, 68, 90, 1);
+}
+
+.button:hover {
+  background-color: rgb(3, 85, 179);
+}
+
+.title {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  text-shadow: 1px 2px 3px #666;
+  letter-spacing: 2px;
+}
+
+.topbar {
+  position: sticky;
+  display: flex;
+  justify-content: space-around;
+  height: 50px;
+  align-items: center;
+  top: 0px;
+  z-index: 10;
+}
+
+.link {
+  text-decoration: none;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(6, 101, 211);
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  font-weight: bold;
+}
+
+.link:hover {
+  background-color: rgb(3, 85, 179);
+}
+
+.searchForm {
+  display: flex;
+  margin-top: 30px;
+  text-align: center;
+  background-color: rgb(6, 101, 211);
+  width: 400px;
+  padding: 10px;
+  color: white;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.formDiv {
+  width: 50%;
+}
+
+
+.form-group .input {
+  margin: 5px;
+}
+
+.searchBtn {
+  color: grey;
+  background-color: white;
+}
+
+.searchBtn:hover {
+  background-color: white
+}
