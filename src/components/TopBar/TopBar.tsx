@@ -7,7 +7,7 @@ interface Props {
 export const TopBar: React.FC<Props> = ({ showChange }) => {
   return (
     <div className="topbar">
-      <Link className="link" to="/">
+      <Link className="link" to="/Books">
         Home
       </Link>
       <Link className="link" to="/favourite">

@@ -33,7 +33,7 @@ function App() {
           titleChange={handleTitleChange}
         />
         <Routes>
-          <Route path="/" element={<Home author={author} title={title} />} />
+          <Route path="/Books" element={<Home author={author} title={title} />} />
           <Route
             path="/favourite"
             element={<Favourite author={author} title={title} />}
